@@ -1,0 +1,461 @@
+html {
+  font-size: 62.5%;
+  font-family: 'Lato', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/* HEADER SECTION */
+header {
+  display: flex;
+  gap: 30rem;
+  min-height: 10vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background: orange;
+}
+
+
+/* NAVIGATION SECTION */
+.nav-1, .nav-2 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 2rem;
+  display: flex;
+  margin-top: 2rem;
+  margin-left: 5rem;
+}
+
+.nav-1 h5 {
+  color: blue;
+}
+
+.nav-1 h5 + h5 {
+  padding-left: 1rem;
+  color: red;
+}
+
+.nav-2 {
+  font-size: 1.7rem;
+  gap: 4rem;
+}
+.nav-2a:hover {
+  color: red;
+  letter-spacing: .1rem;
+}
+
+/* MAIN SECTION */
+main {
+  position: relative;
+  min-height: 80vh;
+  background-image: url('../images/jollof-bg.png');
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.main-section > h1 {
+  margin-top: 8rem;
+  margin-left: 5rem;
+  font-size: 4rem;
+  line-height: 2rem;
+}
+
+.main-section > h1 + h1 {
+  margin-top: 0;
+}
+
+/* MAIN BUTTON */
+.search-icon {
+  display: inline-block;
+  position: absolute;
+  font-size: 2rem;
+  font-weight: normal;
+  margin-top: 3.5rem;
+  margin-left: 6rem;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 2rem;
+  margin-left: 4.5rem;
+}
+
+.btn-class {
+  height: 5rem;
+  outline: 1px solid black;
+  border: 0;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  width: 180%;
+}
+
+.btn-class-0 {
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  width: 126%;
+}
+
+.btn-class-1 {
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  background: orange;
+}
+
+/* SOCIAL MEDIA ICONS */
+.social {
+  margin-left: 5.5rem;
+  margin-top: 5rem;
+}
+
+.fa-brands {
+  width: 8rem;
+  font-size: 1rem;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* SECTION-2 */
+.section-2 {
+  margin-top: 8rem;
+  min-height: 80vh;
+  background: #F9F9F9;
+  background-image: 
+  url('../images/food-1.png');
+  background-position: left top, right bottom ;
+  background-repeat: no-repeat;
+  background-size: 60rem;
+}
+
+.section-2-div {
+  width: 50%;
+  margin-left: 50rem;
+  padding-top: 6rem;
+  font-family: 'Lato', sans-serif;
+}
+
+.section-2-div h1 {
+  width: 45%;
+  font-size: 3rem;
+  font-family: 'Lato', sans-serif;
+}
+ .section-2-div p {
+  width: 50%;
+  text-align: justify;
+ }
+
+.section-2-div p + p {
+  margin-top: 1rem;
+}
+
+/* SECTION-2 BUTTON */
+.discover-div {
+  position: relative;
+  display: flex;
+  width: 50%;
+  margin-left: 50rem;
+  margin-top: 2rem;
+}
+
+.menu-button {
+  width: 20rem;
+  height: 4rem;
+  border: 0;
+}
+
+.menu-button-1 {
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  text-align: start;
+  padding-left: 1rem;
+  background: orange;
+  color: white;
+} 
+
+.menu-button-2 {
+  width: 5rem;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  background: gold;
+  color: white;
+}
+
+.fa-arrow-right {
+  margin-left: 22rem;
+  margin-top: 1.5rem;
+  position: absolute;
+}
+
+/* SPECIALTY CUISINE SECTION */
+.specialty-cuisine-section {
+    min-height: 100vh;
+  }
+
+.specialty-cuisine-section h4, .specialty-cuisine-section h4 + h3 {
+  text-align: center;
+}
+
+.specialty-cuisine-section h4 {
+  font-size: 1.5rem;
+  margin-top: 10rem;
+  margin-bottom: .5rem;
+  color: orange;
+}
+
+.specialty-cuisine-section h4 + h3 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.specialty-cuisine-section ul {
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+}
+
+.specialty-class:hover {
+  color: orange;
+  text-decoration: underline;
+  text-decoration-color: orange;
+  text-decoration-thickness: .5rem;
+}
+
+.breakfast {
+  margin-top: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  justify-content: space-evenly;
+  gap: 2rem;
+}
+
+.image-1,.image-2,.image-3,.image-4, .image-5, .image-6, .image-7, .image-8 {
+  display: flex;
+  flex-direction: column; 
+  width: 25rem;
+  height: 20rem;
+  column-count: 4;
+  background-repeat: no-repeat;
+}
+.image-1 {
+  background-image: url(../images/food1bg.png);
+}
+.image-1 button, .image-2 button, .image-3 button, .image-4 button, .image-5 button, .image-6 button, .image-7 button, .image-8 button {
+  height: 3rem;
+  width: 8rem;
+  border-radius: 1rem;
+  background: orange;
+}
+.image-1 h3, .image-2 h3, .image-3 h3, .image-4 h3, .image-5 h3, .image-6 h3, .image-7 h3, .image-8 h3 {
+  font-size: 3rem;
+  padding-top: 7rem;
+  text-align: center;
+  color: white;
+}
+
+.order-now-button, .stars{
+  margin: 0 auto;
+  border: 0;
+}
+
+.stars {
+  color: orange;
+}
+
+.order-now-button:hover { 
+  text-transform: uppercase;
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.image-2 {
+  background-image: url('../images/food2bg.png');
+}
+
+.image-3 {
+  background-image: url('../images/food3bg.png');
+}
+
+.image-4 {
+  background-image: url('../images/food4bg.png');
+}
+
+.image-5 {
+  background-image: url('../images/food5bg.png');
+}
+
+.image-6 {
+  background-image: url('../images/food6bg.png');
+}
+
+.image-7 {
+  background-image: url('../images/food7.jpg');
+}
+
+.image-8 {
+  background-image: url('../images/food9bg.png');
+}
+
+/* BOOK TABLE SECTION  */
+.book-table-section {
+  margin-top: 8rem;
+  min-height: 100vh;
+  background: #F9F9F9;
+}
+
+/* BOOK TABLE DIV 1 */
+.book-table-div-1 {
+  text-align: center;
+  padding-top: 4rem;
+}
+
+.book-table-div-1 > h5 {
+  color: orange;
+  font-size: 1rem;
+  padding-bottom: 1rem;
+}
+
+.book-table-div-1 > h5 + h2 {
+  font-size: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.book-table-div-1 > h5 + h2 + i {
+  font-size: 2rem;
+  color: orange;
+  padding-bottom: .5rem;
+}
+
+.tel {
+  margin-top: 1rem;
+  font-size: 2rem;
+  color: orange;
+}
+
+/* B00K TABLE DIV 2 */
+.book-table-div-2 {
+  margin-top: 4rem;
+  display: flex;
+  gap: 10rem;
+  margin-left: 50rem;
+}
+
+.book-table-image-div {
+  margin-top: 2rem;
+}
+
+.food10-image {
+  width: 40%;
+  margin-left: 41rem;
+  border-radius: 100%;
+  background: #F9F9F9;
+}
+
+/* LAST SECTION */
+.last-section {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.last-section > h4{
+  text-align: center;
+  margin-top: 5rem;
+  color: orange;
+  font-size: 1.5rem;
+}
+
+.last-section h3 {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 3rem;
+}
+
+.last-section p {
+  max-width: 50rem;
+  margin-left: 40rem;
+  margin-top: 2rem;
+  text-align: center;
+  line-height: 2rem;
+}
+
+.customer-image {
+  max-width: 5%;
+  border-radius: 100%;
+  margin-left: 60rem;
+  margin-top: 1rem;
+}
+
+.last-section .customer-name {
+  font-size: 1.5rem;
+}
+
+.last-section h5 {
+  text-align: center;
+  margin-top: .5rem;
+  margin-bottom: 1rem;
+  color: grey;
+}
+
+footer {
+  display: flex;
+  background: orange;
+}
+
+.copyright-div {
+  display: flex;
+  margin-top: 30px;
+}
+
+.copyright {
+  color: blue;
+}
+
+.social-icons {
+  display: flex;
+  text-align: center;
+  margin-left: 30rem;
+}
+
+.social-icon {
+  display: flex;
+  font-size: 15px;
+  color: blue;
+  margin-bottom: 25px;
+}
+
+/*.social-icon i {
+  transition: color 0.3s;
+}*/
+
+.social-icon:hover i {
+  color: #007bff;
+}
